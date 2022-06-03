@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
 
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
@@ -47,7 +48,7 @@
             </nav>
             <ul class="header-contacts">
                 <li class="header-contacts-item">
-                    <a class="contacts-link" href="mailto:info@devstudio.com" class="contacts nav-contacts">
+                    <a class="contacts-link" href="mailto:info@devstudio.com" class="contacts">
                         <svg class="contacts-icon" width="16" height="12">
                             <use href="./img/sprite.svg#icon-mail"></use>
                         </svg>
@@ -55,7 +56,7 @@
                     </a>
                 </li>
                 <li class="header-contacts-item">
-                    <a class="contacts-link" href="tet:+380961111111" class="contacts nav-contacts">
+                    <a class="contacts-link" href="tet:+380961111111" class="contacts">
                         <svg class="contacts-icon" width="10" height="16">
                             <use href="./img/sprite.svg#icon-phone"></use>
                         </svg>
@@ -144,63 +145,63 @@
 
             </div>
         </section>
-        <!--Переваги-->
+        <!--Benefits-->
         <section class="section">
             <div class="container">
                 <h2 class="section-title visually-hidden">Наши особенности</h2>
                 <ul class="benefits">
-                    <li class="item">
-                        <div class="benefits-pictures">
-                            <svg class="benefits-icons" width="70" height="70">
+                    <li class="benefits__item">
+                        <div class="benefits__pictures">
+                            <svg class="benefits__icons" width="70" height="70">
                                 <use href="./img/sprite.svg#icon-antenna-1"></use>
                             </svg>
                         </div>
-                        <h3 class="title-benefits">
+                        <h3 class="benefits__list-title">
                             Внимание к деталям
                         </h3>
-                        <p class="text-benefits">
+                        <p class="benefits__list-text">
                             Идейные соображения, а также начало повседневной работы по формированию позиции.
                         </p>
                     </li>
 
-                    <li class="item">
-                        <div class="benefits-pictures">
-                            <svg class="benefits-icons" width="70" height="70">
+                    <li class="benefits__item">
+                        <div class="benefits__pictures">
+                            <svg class="benefits__icons" width="70" height="70">
                                 <use href="./img/sprite.svg#icon-clock-1"></use>
                             </svg>
                         </div>
-                        <h3 class="title-benefits">
+                        <h3 class="benefits__list-title">
                             Пунктуальность
                         </h3>
-                        <p class="text-benefits">
+                        <p class="benefits__list-text">
                             Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
                         </p>
                     </li>
 
-                    <li class="item">
-                        <div class="benefits-pictures">
-                            <svg class="benefits-icons" width="70" height="70">
+                    <li class="benefits__item">
+                        <div class="benefits__pictures">
+                            <svg class="benefits__icons" width="70" height="70">
                                 <use href="./img/sprite.svg#icon-diagram-1"></use>
                             </svg>
                         </div>
-                        <h3 class="title-benefits">
+                        <h3 class="benefits__list-title">
                             Планирование
                         </h3>
-                        <p class="text-benefits">
+                        <p class="benefits__list-text">
                             Равным образом консультация с широким активом в значительной степени обуславливает.
                         </p>
                     </li>
 
-                    <li class="item">
-                        <div class="benefits-pictures">
-                            <svg class="benefits-icons" width="70" height="70">
+                    <li class="benefits__item">
+                        <div class="benefits__pictures">
+                            <svg class="benefits__icons" width="70" height="70">
                                 <use href="./img/sprite.svg#icon-astronaut-1"></use>
                             </svg>
                         </div>
-                        <h3 class="title-benefits">
+                        <h3 class="benefits__list-title">
                             Современные технологии
                         </h3>
-                        <p class="text-benefits">
+                        <p class="benefits__list-text">
                             Значимость этих проблем настолько очевидна, что реализация плановых заданий.
                         </p>
                     </li>
@@ -211,15 +212,15 @@
         <!--Services-->
         <section class="section services">
             <div class="container">
-                <h2 class="section-title services-title ">Чем мы занимаемся</h2>
-                <ul class="services-img">
-                    <li class="item" service-text="Десктопные приложения">
+                <h2 class="section-title services__title ">Чем мы занимаемся</h2>
+                <ul class="services__list">
+                    <li class="services__list-item" service-text="Десктопные приложения">
                         <img src="./img/pk1.jpg" alt="Человек пишет код" width="370">
                     </li>
-                    <li class="item" service-text="Мобильные приложения">
+                    <li class="services__list-item" service-text="Мобильные приложения">
                         <img src="./img/pk2.jpg" alt="Телефон и компьютер" width="370">
                     </li>
-                    <li class="item" service-text="Дизайнерские решения">
+                    <li class="services__list-item" service-text="Дизайнерские решения">
                         <img src="./img/pk3.jpg" alt="Планшет" width="370">
                     </li>
                 </ul>
@@ -402,53 +403,53 @@
             </div>
         </section>
         <!--Our clients-->
-        <section class="section clients">
+        <section class=" clients section">
             <div class="container">
-                <h2 class="section-title clients-title">Постоянные клиенты</h2>
-                <ul class="clients-list">
-                    <li class="clients-item">
-                        <a class="clients-link" href="">
-                            <svg class="clients-icons" width="106" height="60">
+                <h2 class="section-title clients__title">Постоянные клиенты</h2>
+                <ul class="clients__list">
+                    <li class="clients__list-item">
+                        <a class="clients__link" href="">
+                            <svg class="clients__icon" width="106" height="60">
                                 <use href="./img/sprite.svg#icon-Logo-1">
                                 </use>
                             </svg>
                         </a>
                     </li>
-                    <li class="clients-item">
-                        <a class="clients-link" href="">
-                            <svg class="clients-icons" width="106" height="60">
+                    <li class="clients__list-item">
+                        <a class="clients__link" href="">
+                            <svg class="clients__icon" width="106" height="60">
                                 <use href="./img/sprite.svg#icon-Logo-1">
                                 </use>
                             </svg>
                         </a>
                     </li>
-                    <li class="clients-item">
-                        <a class="clients-link" href="">
-                            <svg class="clients-icons" width="106" height="60">
+                    <li class="clients__list-item">
+                        <a class="clients__link" href="">
+                            <svg class="clients__icon" width="106" height="60">
                                 <use href="./img/sprite.svg#icon-Logo-2">
                                 </use>
                             </svg>
                         </a>
                     </li>
-                    <li class="clients-item">
-                        <a class="clients-link" href="">
-                            <svg class="clients-icons" width="106" height="60">
+                    <li class="clients__list-item">
+                        <a class="clients__link" href="">
+                            <svg class="clients__icon" width="106" height="60">
                                 <use href="./img/sprite.svg#icon-Logo-3">
                                 </use>
                             </svg>
                         </a>
                     </li>
-                    <li class="clients-item">
-                        <a class="clients-link" href="">
-                            <svg class="clients-icons" width="106" height="60">
+                    <li class="clients__list-item">
+                        <a class="clients__link" href="">
+                            <svg class="clients__icon" width="106" height="60">
                                 <use href="./img/sprite.svg#icon-Logo-4">
                                 </use>
                             </svg>
                         </a>
                     </li>
-                    <li class="clients-item">
-                        <a class="clients-link" href="">
-                            <svg class="clients-icons" width="106" height="60">
+                    <li class="clients__list-item">
+                        <a class="clients__link" href="">
+                            <svg class="clients__icon" width="106" height="60">
                                 <use href="./img/sprite.svg#icon-Logo-5">
                                 </use>
                             </svg>
